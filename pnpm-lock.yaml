@@ -1,42 +1,39 @@
 lockfileVersion: '6.0'
 
-importers:
-
-  .:
-    devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^0.37.0
-        version: 0.37.0(eslint@8.31.0)(typescript@5.0.2)
-      '@antfu/ni':
-        specifier: ^0.20.0
-        version: 0.20.0
-      '@types/node':
-        specifier: ^18.11.18
-        version: 18.11.18
-      bumpp:
-        specifier: ^9.0.0
-        version: 9.0.0
-      eslint:
-        specifier: ^8.31.0
-        version: 8.31.0
-      esno:
-        specifier: ^0.16.3
-        version: 0.16.3
-      rimraf:
-        specifier: ^5.0.0
-        version: 5.0.0
-      typescript:
-        specifier: ^5.0.0
-        version: 5.0.2
-      unbuild:
-        specifier: ^1.0.2
-        version: 1.0.2
-      vite:
-        specifier: ^4.0.4
-        version: 4.0.4(@types/node@18.11.18)
-      vitest:
-        specifier: ^0.30.0
-        version: 0.30.0
+devDependencies:
+  '@antfu/eslint-config':
+    specifier: ^0.37.0
+    version: 0.37.0(eslint@8.31.0)(typescript@5.0.2)
+  '@antfu/ni':
+    specifier: ^0.20.0
+    version: 0.20.0
+  '@types/node':
+    specifier: ^18.11.18
+    version: 18.11.18
+  bumpp:
+    specifier: ^9.0.0
+    version: 9.0.0
+  eslint:
+    specifier: ^8.31.0
+    version: 8.31.0
+  esno:
+    specifier: ^0.16.3
+    version: 0.16.3
+  rimraf:
+    specifier: ^5.0.0
+    version: 5.0.0
+  typescript:
+    specifier: ^5.0.0
+    version: 5.0.2
+  unbuild:
+    specifier: ^1.0.2
+    version: 1.0.2
+  vite:
+    specifier: ^4.0.4
+    version: 4.0.4(@types/node@18.11.18)
+  vitest:
+    specifier: ^0.30.0
+    version: 0.30.0
 
 packages:
 
