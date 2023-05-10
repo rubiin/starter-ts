@@ -2,7 +2,7 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.4.0",
+  "packageManager": "pnpm@8.5.0",
   "description": "",
   "author": "Rubin Bhandari <roobin.bhandari@gmail.com>",
   "license": "MIT",
