@@ -4,43 +4,40 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^0.39.0
-        version: 0.39.0(eslint@8.39.0)(typescript@5.0.4)
-      '@antfu/ni':
-        specifier: ^0.21.3
-        version: 0.21.3
-      '@types/node':
-        specifier: ^18.16.3
-        version: 18.16.3
-      bumpp:
-        specifier: ^9.1.0
-        version: 9.1.0
-      eslint:
-        specifier: ^8.39.0
-        version: 8.39.0
-      esno:
-        specifier: ^0.16.3
-        version: 0.16.3
-      rimraf:
-        specifier: ^5.0.0
-        version: 5.0.0
-      typescript:
-        specifier: ^5.0.4
-        version: 5.0.4
-      unbuild:
-        specifier: ^1.2.1
-        version: 1.2.1
-      vite:
-        specifier: ^4.3.4
-        version: 4.3.4(@types/node@18.16.3)
-      vitest:
-        specifier: ^0.32.0
-        version: 0.32.0
+devDependencies:
+  '@antfu/eslint-config':
+    specifier: ^0.39.0
+    version: 0.39.0(eslint@8.39.0)(typescript@5.0.4)
+  '@antfu/ni':
+    specifier: ^0.21.3
+    version: 0.21.3
+  '@types/node':
+    specifier: ^18.16.3
+    version: 18.16.3
+  bumpp:
+    specifier: ^9.1.0
+    version: 9.1.0
+  eslint:
+    specifier: ^8.39.0
+    version: 8.39.0
+  esno:
+    specifier: ^0.16.3
+    version: 0.16.3
+  rimraf:
+    specifier: ^5.0.0
+    version: 5.0.0
+  typescript:
+    specifier: ^5.0.4
+    version: 5.0.4
+  unbuild:
+    specifier: ^1.2.1
+    version: 1.2.1
+  vite:
+    specifier: ^4.3.4
+    version: 4.3.4(@types/node@18.16.3)
+  vitest:
+    specifier: ^0.32.0
+    version: 0.32.0
 
 packages:
 
