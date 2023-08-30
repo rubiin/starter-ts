@@ -1,7 +1,7 @@
 {
   "name": "pkg-name",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@8.6.9",
   "description": "",
   "author": "Rubin Bhandari <roobin.bhandari@gmail.com>",
@@ -38,7 +38,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
-    "lint": "eslint .",
+    "lint": "eslint '{src,test}/**/*.ts' --cache --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",

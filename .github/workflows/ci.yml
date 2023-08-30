@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: "pnpm"
+          cache: pnpm
 
-      - run:  pnpm install --shamefully-hoist=true --frozen-lockfile
+      - run: pnpm install --shamefully-hoist=true --frozen-lockfile
       - run: pnpm run lint && pnpm run build
