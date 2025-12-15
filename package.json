@@ -45,11 +45,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.4.2",
+    "@antfu/eslint-config": "^6.7.1",
     "@antfu/ni": "^28.0.0",
-    "@types/node": "^24.10.1",
+    "@types/node": "^24.10.4",
     "bumpp": "^10.3.2",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "esno": "^4.8.0",
     "rimraf": "^6.1.2",
     "typescript": "^5.9.3",
