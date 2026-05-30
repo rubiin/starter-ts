@@ -1,25 +1,21 @@
 {
   "name": "pkg-name",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "author": "Rubin Bhandari <roobin.bhandari@gmail.com>",
-  "license": "MIT",
+  "keywords": [],
   "homepage": "https://github.com/rubiin/lib-starter#readme",
+  "bugs": "https://github.com/rubiin/lib-starter/issues",
+  "license": "MIT",
+  "author": "Rubin Bhandari <roobin.bhandari@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rubiin/lib-starter.git"
   },
-  "bugs": "https://github.com/rubiin/lib-starter/issues",
-  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "type": "module",
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
-    }
-  },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -31,31 +27,36 @@
       ]
     }
   },
-  "files": [
-    "dist"
-  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
-    "prepublishOnly": "nr build",
+    "prepublishOnly": "npm run build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest --run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
   },
   "devDependencies": {
-    "@antfu/ni": "^30.1.0",
     "@types/node": "^24.12.4",
     "bumpp": "^11.1.0",
-    "oxlint": "^1.66.0",
     "esno": "^4.8.0",
+    "oxfmt": "^0.52.0",
+    "oxlint": "^1.67.0",
     "rimraf": "^6.1.3",
     "typescript": "^6.0.3",
     "unbuild": "^3.6.1",
     "vite": "^8.0.14",
     "vitest": "^4.1.7"
-  },
-  "dependencies": {}
+  }
 }
